@@ -1,0 +1,18 @@
+{
+  "name": "gravityforms-object-extractor",
+  "version": "1.0.0",
+  "description": "This module will encode/decode the gravity forms List that you will get from the WordPress api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/mohammadraufzahed/gravityforms-object-extractor",
+  "author": "Mohammad Raufzahed <mohammadraufzahed@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev:watch": "tsc --watch",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
